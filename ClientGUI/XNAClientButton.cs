@@ -1,4 +1,4 @@
-﻿using Rampastring.XNAUI.XNAControls;
+using Rampastring.XNAUI.XNAControls;
 using Rampastring.XNAUI;
 using Rampastring.Tools;
 using System;
@@ -41,7 +41,7 @@ namespace ClientGUI
                 HoverTexture = AssetLoader.LoadTexture(width + "pxbtn_c.png");
 
             if (HoverSoundEffect == null)
-                HoverSoundEffect = new EnhancedSoundEffect("button.wav");
+                HoverSoundEffect = new EnhancedSoundEffect("Audio/SE/button.wav");
 
             base.Initialize();
 
@@ -69,3 +69,4 @@ namespace ClientGUI
         }
     }
 }
+

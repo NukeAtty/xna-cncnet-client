@@ -1,0 +1,205 @@
+# Assets
+
+默认资源根目录：`DXMainClient/Resources`
+
+图片文件总数：`178`
+音频文件总数：`13`
+
+## 图片资源
+
+- `DTA\arrow.cur`
+- `DTA\cheater.png`
+- `DTA\clienticon.ico`
+- `DTA\cursor.cur`
+- `DTA\cursor.png`
+- `DTA\Default Theme\110pxbtn_c.png`
+- `DTA\Default Theme\110pxbtn.png`
+- `DTA\Default Theme\121pxbtn_c.png`
+- `DTA\Default Theme\121pxbtn.png`
+- `DTA\Default Theme\133pxbtn_c.png`
+- `DTA\Default Theme\133pxbtn.png`
+- `DTA\Default Theme\133pxtab_c.png`
+- `DTA\Default Theme\133pxtab.png`
+- `DTA\Default Theme\142pxbtn_c.png`
+- `DTA\Default Theme\142pxbtn.png`
+- `DTA\Default Theme\147pxbtn_c.png`
+- `DTA\Default Theme\147pxbtn.png`
+- `DTA\Default Theme\160pxbtn_c.png`
+- `DTA\Default Theme\160pxbtn.png`
+- `DTA\Default Theme\75pxbtn_c.png`
+- `DTA\Default Theme\75pxbtn.png`
+- `DTA\Default Theme\92pxbtn_c.png`
+- `DTA\Default Theme\92pxbtn.png`
+- `DTA\Default Theme\97pxbtn_c.png`
+- `DTA\Default Theme\97pxbtn.png`
+- `DTA\Default Theme\bar_ll.png`
+- `DTA\Default Theme\bar_lr.png`
+- `DTA\Default Theme\bar_ul.png`
+- `DTA\Default Theme\bar_ur.png`
+- `DTA\Default Theme\checkBoxChecked.png`
+- `DTA\Default Theme\checkBoxCheckedD.png`
+- `DTA\Default Theme\checkBoxClear.png`
+- `DTA\Default Theme\checkBoxClearD.png`
+- `DTA\Default Theme\comboBoxArrow.png`
+- `DTA\Default Theme\facebookActive.png`
+- `DTA\Default Theme\facebookInactive.png`
+- `DTA\Default Theme\favActive_c.png`
+- `DTA\Default Theme\favActive.png`
+- `DTA\Default Theme\favInactive_c.png`
+- `DTA\Default Theme\favInactive.png`
+- `DTA\Default Theme\filterActive.png`
+- `DTA\Default Theme\filterInactive.png`
+- `DTA\Default Theme\forumsActive.png`
+- `DTA\Default Theme\forumsInactive.png`
+- `DTA\Default Theme\glow_b.png`
+- `DTA\Default Theme\glow_bl.png`
+- `DTA\Default Theme\glow_br.png`
+- `DTA\Default Theme\glow_l.png`
+- `DTA\Default Theme\glow_r.png`
+- `DTA\Default Theme\glow_t.png`
+- `DTA\Default Theme\glow_tl.png`
+- `DTA\Default Theme\glow_tr.png`
+- `DTA\Default Theme\googlePlusActive.png`
+- `DTA\Default Theme\googlePlusInactive.png`
+- `DTA\Default Theme\leftbar.png`
+- `DTA\Default Theme\lsbg.png`
+- `DTA\Default Theme\lslogo-cn.png`
+- `DTA\Default Theme\lslogo-de.png`
+- `DTA\Default Theme\lslogo-fr.png`
+- `DTA\Default Theme\lslogo.png`
+- `DTA\Default Theme\lstext.png`
+- `DTA\Default Theme\MainMenu\back_c.png`
+- `DTA\Default Theme\MainMenu\back.png`
+- `DTA\Default Theme\MainMenu\campaign_c.png`
+- `DTA\Default Theme\MainMenu\campaign.png`
+- `DTA\Default Theme\MainMenu\credits_c.png`
+- `DTA\Default Theme\MainMenu\credits.png`
+- `DTA\Default Theme\MainMenu\dbak.png`
+- `DTA\Default Theme\MainMenu\exitgame_c.png`
+- `DTA\Default Theme\MainMenu\exitgame.png`
+- `DTA\Default Theme\MainMenu\extras_c.png`
+- `DTA\Default Theme\MainMenu\extras.png`
+- `DTA\Default Theme\MainMenu\fstitle.png`
+- `DTA\Default Theme\MainMenu\lan_c.png`
+- `DTA\Default Theme\MainMenu\lan.png`
+- `DTA\Default Theme\MainMenu\loadmission_c.png`
+- `DTA\Default Theme\MainMenu\loadmission.png`
+- `DTA\Default Theme\MainMenu\Logo-CN.png`
+- `DTA\Default Theme\MainMenu\Logo-DE.png`
+- `DTA\Default Theme\MainMenu\Logo-FR.png`
+- `DTA\Default Theme\MainMenu\Logo.png`
+- `DTA\Default Theme\MainMenu\mainmenubg.png`
+- `DTA\Default Theme\MainMenu\mainmenuebg.png`
+- `DTA\Default Theme\MainMenu\mapeditor_c.png`
+- `DTA\Default Theme\MainMenu\mapeditor.png`
+- `DTA\Default Theme\MainMenu\options_c.png`
+- `DTA\Default Theme\MainMenu\options.png`
+- `DTA\Default Theme\MainMenu\playonline_c.png`
+- `DTA\Default Theme\MainMenu\playonline.png`
+- `DTA\Default Theme\MainMenu\rankedmatch_c.png`
+- `DTA\Default Theme\MainMenu\rankedmatch.png`
+- `DTA\Default Theme\MainMenu\skirmish_c.png`
+- `DTA\Default Theme\MainMenu\skirmish.png`
+- `DTA\Default Theme\MainMenu\statistics_c.png`
+- `DTA\Default Theme\MainMenu\statistics.png`
+- `DTA\Default Theme\MainMenu\vinifera_c.png`
+- `DTA\Default Theme\MainMenu\vinifera.png`
+- `DTA\Default Theme\moddbActive.png`
+- `DTA\Default Theme\moddbInactive.png`
+- `DTA\Default Theme\openedComboBoxArrow.png`
+- `DTA\Default Theme\rightbar.png`
+- `DTA\Default Theme\sbBackground.png`
+- `DTA\Default Theme\sbDownArrow.png`
+- `DTA\Default Theme\sbMiddle.png`
+- `DTA\Default Theme\sbThumbBottom.png`
+- `DTA\Default Theme\sbThumbTop.png`
+- `DTA\Default Theme\sbUpArrow.png`
+- `DTA\Default Theme\slocindicator.png`
+- `DTA\Default Theme\slocindicator1.png`
+- `DTA\Default Theme\slocindicator2.png`
+- `DTA\Default Theme\slocindicator3.png`
+- `DTA\Default Theme\slocindicator4.png`
+- `DTA\Default Theme\slocindicator5.png`
+- `DTA\Default Theme\slocindicator6.png`
+- `DTA\Default Theme\slocindicator7.png`
+- `DTA\Default Theme\slocindicator8.png`
+- `DTA\Default Theme\slocindicatorc.png`
+- `DTA\Default Theme\slocindicatorh.png`
+- `DTA\Default Theme\sortAlphaActive.png`
+- `DTA\Default Theme\sortAlphaAsc.png`
+- `DTA\Default Theme\sortAlphaDesc.png`
+- `DTA\Default Theme\sortAlphaInactive.png`
+- `DTA\Default Theme\sortAlphaNone.png`
+- `DTA\Default Theme\trackbarButton_difficulty.png`
+- `DTA\Default Theme\trackbarButton.png`
+- `DTA\Default Theme\twitterActive.png`
+- `DTA\Default Theme\twitterInactive.png`
+- `DTA\Default Theme\youtubeActive.png`
+- `DTA\Default Theme\youtubeInactive.png`
+- `DTA\friendicon.png`
+- `DTA\gdiicon.png`
+- `DTA\incompatible.png`
+- `DTA\l480s01.pcx`
+- `DTA\l480s02.pcx`
+- `DTA\l480s11.pcx`
+- `DTA\l480s12.pcx`
+- `DTA\l600s01.pcx`
+- `DTA\l600s02.pcx`
+- `DTA\l600s11.pcx`
+- `DTA\l600s12.pcx`
+- `DTA\launcherupdater.png`
+- `DTA\lockedgame.png`
+- `DTA\msgboxform.png`
+- `DTA\nodicon.png`
+- `DTA\noMapPreview.png`
+- `DTA\nopreview.png`
+- `DTA\passwordedgame.png`
+- `DTA\ping0.png`
+- `DTA\ping1.png`
+- `DTA\ping2.png`
+- `DTA\ping3.png`
+- `DTA\ping4.png`
+- `DTA\ppicon.png`
+- `DTA\randomicon.png`
+- `DTA\rank.png`
+- `DTA\rankEasy.png`
+- `DTA\rankHard.png`
+- `DTA\rankNone.png`
+- `DTA\rankNormal.png`
+- `DTA\skillLevel1.png`
+- `DTA\skillLevel2.png`
+- `DTA\skillLevel3.png`
+- `DTA\spectatoricon.png`
+- `DTA\statusAI.png`
+- `DTA\statusClear.png`
+- `DTA\statusEmpty.png`
+- `DTA\statusError.png`
+- `DTA\statusInProgress.png`
+- `DTA\statusOk.png`
+- `DTA\statusUnavailable.png`
+- `DTA\statusWarning.png`
+- `DTA\ts_legal_text.png`
+- `DTA\tsicon.ico`
+- `DTA\voiceicon.png`
+- `Maps\Fan-made\cold_war.png`
+- `Maps\Fan-made\pain_redefined.png`
+- `Maps\Firestorm\duel.png`
+- `Maps\Tiberian Sun\terrace.png`
+
+## 音频资源
+
+- `DTA\Default Theme\button.wav`
+- `DTA\Default Theme\checkbox.wav`
+- `DTA\Default Theme\dropdown.wav`
+- `DTA\Default Theme\MainMenu\button.wav`
+- `DTA\Default Theme\MainMenuTheme.ogg`
+- `DTA\Default Theme\MainMenuTheme.wma`
+- `DTA\gamecreated.wav`
+- `DTA\getready.wav`
+- `DTA\joingame.wav`
+- `DTA\leavegame.wav`
+- `DTA\lobbymusic.wav`
+- `DTA\message.wav`
+- `DTA\pm.wav`
+
+> 注：本列表基于仓库当前文件系统扫描结果生成，展示的是默认路径和文件名。

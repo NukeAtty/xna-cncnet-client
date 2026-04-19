@@ -23,6 +23,7 @@ namespace ClientCore
         public const string GAME_FILTERS = "GameFilters";
         public const string GAME_OPTION_FILTERS = "GameOptionFilters";
         private const string FAVORITE_MAPS = "FavoriteMaps";
+        private const string PHOBOS = "Phobos";
 
         private const bool DEFAULT_SHOW_FRIENDS_ONLY_GAMES = false;
         private const bool DEFAULT_HIDE_LOCKED_GAMES = false;
@@ -477,6 +478,8 @@ namespace ClientCore
             if (ClientConfiguration.Instance.ClientGameType == ClientType.RA)
                 SettingsIni.SetDoubleValue(OPTIONS, "MultiplayerScoreVolume", SettingsIni.GetDoubleValue(OPTIONS, "ScoreVolume", 0.7));
 
+            EnsurePhobosSettings();
+
             SettingsIni.WriteIniFile();
 
             SettingsSaved?.Invoke(this, EventArgs.Empty);
@@ -542,6 +545,24 @@ namespace ClientCore
             // remove the old key
             iniFile.GetSection(OPTIONS).RemoveKey(FAVORITE_MAPS);
             return true;
+        }
+
+        private void EnsurePhobosSettings()
+        {
+            string settingsFileName = Path.GetFileName(SettingsIni.FileName);
+            if (!settingsFileName.Equals("RA2MD.INI", StringComparison.OrdinalIgnoreCase))
+                return;
+
+            SettingsIni.SetIntValue(PHOBOS, "CampaignDefaultGameSpeed", 5);
+            SettingsIni.SetBooleanValue(PHOBOS, "RealTimeTimers", true);
+            SettingsIni.SetBooleanValue(PHOBOS, "MessageApplyHoverState", false);
+            SettingsIni.SetBooleanValue(PHOBOS, "MessageDisplayInCenter", true);
+            SettingsIni.SetIntValue(PHOBOS, "MessageDisplayInCenter.BoardOpacity", 100);
+            SettingsIni.SetIntValue(PHOBOS, "MessageDisplayInCenter.LabelsCount", 4);
+            SettingsIni.SetIntValue(PHOBOS, "MessageDisplayInCenter.RecordsCount", 12);
+            SettingsIni.SetBooleanValue(PHOBOS, "ShowHarvesterCounter", true);
+            SettingsIni.SetBooleanValue(PHOBOS, "ShowPowerDelta", true);
+            SettingsIni.SetBooleanValue(PHOBOS, "ToolTipBlur", false);
         }
     }
 }

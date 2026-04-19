@@ -669,10 +669,16 @@ namespace DTAClient.DXGUI.Campaign
 
         private void ReadMissionList()
         {
-            ParseBattleIni("INI/Battle.ini");
+            bool loaded = ParseBattleIni(SafePath.CombineFilePath("Resources", "Configs", "Battle.ini"));
+            if (!loaded)
+                loaded = ParseBattleIni(SafePath.CombineFilePath("Resources", "INI", "Battle.ini"));
 
             if (AllMissions.Count == 0)
-                ParseBattleIni("INI/" + ClientConfiguration.Instance.BattleFSFileName);
+            {
+                loaded = ParseBattleIni(SafePath.CombineFilePath("Resources", "Configs", ClientConfiguration.Instance.BattleFSFileName));
+                if (!loaded)
+                    ParseBattleIni(SafePath.CombineFilePath("Resources", "INI", ClientConfiguration.Instance.BattleFSFileName));
+            }
 
             LoadCustomMissions();
 

@@ -97,6 +97,16 @@ namespace ClientCore
             return SafePath.CombineDirectoryPath(GamePath, BASE_RESOURCE_PATH);
         }
 
+        public static string GetGameConfigPath()
+        {
+            return SafePath.CombineDirectoryPath(GamePath, BASE_RESOURCE_PATH, "Configs");
+        }
+
+        public static string GetGameConfigBasePath()
+        {
+            return SafePath.CombineDirectoryPath(GamePath, BASE_RESOURCE_PATH, "Configs", "Base");
+        }
+
         public const string GAME_INVITE_CTCP_COMMAND = "INVITE";
         public const string GAME_INVITATION_FAILED_CTCP_COMMAND = "INVITATION_FAILED";
 

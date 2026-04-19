@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.Xna.Framework.Graphics;
 using Rampastring.Tools;
 using Rampastring.XNAUI;
@@ -31,7 +31,7 @@ namespace ClientGUI
             UpdateIdleTexture();
 
             if (HoverSoundEffect == null)
-                HoverSoundEffect = new EnhancedSoundEffect("button.wav");
+                HoverSoundEffect = new EnhancedSoundEffect("Audio/SE/button.wav");
 
             base.Initialize();
 
@@ -90,3 +90,4 @@ namespace ClientGUI
         }
     }
 }
+

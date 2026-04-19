@@ -40,7 +40,7 @@ namespace ClientCore.INIProcessing
         {
             Logger.Log("Starting background processing of INI files.");
 
-            DirectoryInfo iniFolder = SafePath.GetDirectory(ProgramConstants.GamePath, "INI", "Base");
+            DirectoryInfo iniFolder = SafePath.GetDirectory(ProgramConstants.GetGameConfigBasePath());
 
             if (!iniFolder.Exists)
             {
@@ -64,7 +64,7 @@ namespace ClientCore.INIProcessing
                     Logger.Log("INI file " + iniFile.Name + " is not processed or outdated, re-processing it.");
 
                     string sourcePath = iniFile.FullName;
-                    string destinationPath = SafePath.CombineFilePath(ProgramConstants.GamePath, "INI", iniFile.Name);
+                    string destinationPath = SafePath.CombineFilePath(ProgramConstants.GetGameConfigPath(), iniFile.Name);
 
                     processor.ProcessIni(sourcePath, destinationPath);
 

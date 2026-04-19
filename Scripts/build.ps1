@@ -109,7 +109,12 @@ function Script:Invoke-BuildProject {
       #   $Private:ArgumentList.Add('--arch=x86')
       # }
   
-      & 'dotnet' $Private:ArgumentList
+      $Private:DotnetExecutable = Join-Path $env:USERPROFILE '.dotnet\dotnet.exe'
+      if (-not (Test-Path $Private:DotnetExecutable)) {
+        $Private:DotnetExecutable = 'dotnet'
+      }
+
+      & $Private:DotnetExecutable $Private:ArgumentList
       if ($LASTEXITCODE) {
         throw "Build failed for ${Engine}$Script:ConfigurationSuffix $Framework (exit code $LASTEXITCODE)"
       }

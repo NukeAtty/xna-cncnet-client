@@ -1,4 +1,4 @@
-﻿using Rampastring.XNAUI.XNAControls;
+using Rampastring.XNAUI.XNAControls;
 using Rampastring.XNAUI;
 
 namespace ClientGUI
@@ -13,7 +13,7 @@ namespace ClientGUI
         {
             if (ClickSound == null)
             {
-                ClickSound = new EnhancedSoundEffect("button.wav");
+                ClickSound = new EnhancedSoundEffect("Audio/SE/button.wav");
             }
             
             base.Initialize();
@@ -36,3 +36,4 @@ namespace ClientGUI
         }
     }
 }
+

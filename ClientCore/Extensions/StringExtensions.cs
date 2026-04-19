@@ -61,7 +61,7 @@ public static class StringExtensions
         return iniString
             .Replace(ESCAPED_INI_NEWLINE_PATTERN, ProgramConstants.INI_NEWLINE_PATTERN)
             .Replace(ESCAPED_SEMICOLON, ";")
-            .Replace(ProgramConstants.INI_NEWLINE_PATTERN, Environment.NewLine);
+            .Replace(ProgramConstants.INI_NEWLINE_PATTERN, "\n");
     }
 
     /// <summary>

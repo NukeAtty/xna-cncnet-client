@@ -229,10 +229,10 @@ namespace DTAClient.DXGUI.Multiplayer.GameLobby
 
             RankTextures = new Texture2D[4]
             {
-                AssetLoader.LoadTexture("rankNone.png"),
-                AssetLoader.LoadTexture("rankEasy.png"),
-                AssetLoader.LoadTexture("rankNormal.png"),
-                AssetLoader.LoadTexture("rankHard.png")
+                AssetLoader.LoadTexture("Icons/rankNone.png"),
+                AssetLoader.LoadTexture("Icons/rankEasy.png"),
+                AssetLoader.LoadTexture("Icons/rankNormal.png"),
+                AssetLoader.LoadTexture("Icons/rankHard.png")
             };
 
             MPColors = MultiplayerColor.LoadColors();

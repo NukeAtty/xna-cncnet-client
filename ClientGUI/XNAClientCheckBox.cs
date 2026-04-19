@@ -1,4 +1,4 @@
-﻿using Rampastring.XNAUI.XNAControls;
+using Rampastring.XNAUI.XNAControls;
 using Rampastring.XNAUI;
 using System;
 using Rampastring.Tools;
@@ -28,7 +28,7 @@ namespace ClientGUI
 
         public override void Initialize()
         {
-            CheckSoundEffect = new EnhancedSoundEffect("checkbox.wav");
+            CheckSoundEffect = new EnhancedSoundEffect("Audio/SE/checkbox.wav");
 
             base.Initialize();
 
@@ -47,3 +47,4 @@ namespace ClientGUI
         }
     }
 }
+

@@ -1,4 +1,4 @@
-﻿using Rampastring.XNAUI.XNAControls;
+using Rampastring.XNAUI.XNAControls;
 using Rampastring.XNAUI;
 using Rampastring.Tools;
 using System;
@@ -28,7 +28,7 @@ namespace ClientGUI
 
         public override void Initialize()
         {
-            ClickSoundEffect = new EnhancedSoundEffect("dropdown.wav");
+            ClickSoundEffect = new EnhancedSoundEffect("Audio/SE/dropdown.wav");
 
             base.Initialize();
 
@@ -68,3 +68,4 @@ namespace ClientGUI
         }
     }
 }
+

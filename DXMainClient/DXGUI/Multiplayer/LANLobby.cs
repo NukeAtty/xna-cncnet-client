@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -254,7 +254,7 @@ namespace DTAClient.DXGUI.Multiplayer
 
             unknownGameIcon = AssetLoader.TextureFromImage(Image.Load(unknownIconStream));
 
-            sndGameCreated = new EnhancedSoundEffect("gamecreated.wav");
+            sndGameCreated = new EnhancedSoundEffect("Audio/SE/gamecreated.wav");
 
             base.Initialize();
 
@@ -670,3 +670,4 @@ namespace DTAClient.DXGUI.Multiplayer
         }
     }
 }
+
